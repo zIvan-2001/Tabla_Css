@@ -1,0 +1,74 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+.button button {
+  margin-left: 200px;
+  margin-top: 5px;
+  padding: 15px;
+  background: #38b000;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+
+table {
+  padding: 5px 200px;
+  width: 100%;
+  align-content: center;
+}
+
+thead tr {
+  background: #d90429;
+}
+
+thead tr th {
+  font-weight: bold;
+  padding: 10px;
+  color: #fff;
+  font-size: 20px;
+}
+
+tbody tr th {
+  padding: 10px;
+  font-size: 20px;
+  color: rgb(100, 96, 96);
+}
+
+.edit {
+  padding: 10px;
+  background: #38b000;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+
+.remove {
+  padding: 10px;
+  background: #ef233c;
+  font-size: 15px;
+  border-radius: 5px;
+  color: #ffff;
+  border: none;
+  cursor: pointer;
+}
+
+th {
+  border-bottom: 1px solid rgb(202, 193, 193);
+}
+
+th:first-child {
+  color: #000;
+}
